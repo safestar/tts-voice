@@ -24,9 +24,9 @@ API_KEY = os.environ.get("STEP_API_KEY", "")
 MODEL_NAME = "stepaudio-2.5-tts"
 
 # 默认参数
-DEFAULT_VOICE = "voice-tone-QNlBeTRkfY"  # 自定义复刻音色
+DEFAULT_VOICE = "voice-tone-QYvA34GkvQ"  # 自定义复刻音色
 DEFAULT_SPEED = 0.9
-DEFAULT_INSTRUCTION = "声音特别温柔，要有感情，语速一致，自然讲述，语气流畅，像真人解说，不要机械，情感自然过渡，停顿适度"
+DEFAULT_INSTRUCTION = "幽默搞笑风格，语气活泼有趣，像个搞笑主播，带有调侃和自嘲的感觉，语调生动变化，让人听了就想笑"
 
 def split_text(text: str, max_length: int = 1000) -> list:
     """将长文本按行分割，确保每段不超过max_length"""
